@@ -30,6 +30,9 @@ Extract the Zip of Project package in directory: C:\xampp\htdocs
 
 start the server.
 
+open localhost/phpmyadmin
+Create a new database named products and import the products.sql file
+
 ###See Live Demo
 Open any Browser(recommended Chrome), go to: http://localhost:port/package-name/public
 
