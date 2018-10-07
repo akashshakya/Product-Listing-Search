@@ -40,16 +40,16 @@ Open any Browser(recommended Chrome), go to: http://localhost:port/package-name/
 
 ### LiveSearch.php 
 LiveSearch.php is an Controller having a Class called LiverSearch. This is giving having two Functions:
--> index : return view live_search
--> action : utility api function that return the json object as per search query Request.
+- index : return view live_search
+- action : utility api function that return the json object as per search query Request.
 
 ### live_search.blade.php
 live_search.blade.php is the page that renders up as root url view('/').
 This code includes:
--> Essential HTML code
--> Jquery and JavaScript Code to handle Event.
--> AJAX Function with API Request that returns the JSON obj as response(after matching query).
--> Function to handle Response and bind it as html after parsing.
+- Essential HTML code
+- Jquery and JavaScript Code to handle Event.
+- AJAX Function with API Request that returns the JSON obj as response(after matching query).
+- Function to handle Response and bind it as html after parsing.
 
 ### api.php
 API routing:
@@ -64,17 +64,17 @@ For eg: http://localhost/package-name/api/search?query=Apple
 ### Database(MySQL)
 Database Schema for Product is as follows:
 These are following Columns
-->ProductName : Name of the Product
-->Price : Price of the Product
-->Brand : Name of Brand
-->Category : Category of the Product
-->Discount : % Discount to offer
-->Img : Image url of the product
-->Tags : Tags for the product to help in search Query.
+- ProductName : Name of the Product
+- Price : Price of the Product
+- Brand : Name of Brand
+- Category : Category of the Product
+- Discount : % Discount to offer
+- Img : Image url of the product
+- Tags : Tags for the product to help in search Query.
 
 ### Front-End
-->HTML, CSS, JavaScript, Bootstrap, Jquery, AJAX.
+- HTML, CSS, JavaScript, Bootstrap, Jquery, AJAX.
 
 ### Backend
-->PHP(Laravel MVC), MYSQL. 
+- PHP(Laravel MVC), MYSQL. 
 
