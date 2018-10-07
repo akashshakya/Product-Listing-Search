@@ -12,7 +12,7 @@ This Application is an Example implementation of Live search for product listing
 
 This App using following:
 
-* [Laravel MVC] - One of the well organised MVC framework to developer web apps.
+* [Laravel MVC] - One of the well organised MVC framework to develop web apps.
 * [Xampp] - For PHP, MYSQL server
 * [JQueryUI] - jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps
